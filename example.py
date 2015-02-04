@@ -17,6 +17,6 @@ mag = sn.sn_ia(t,par)
 plt.plot(t,mag)
 
 plt.ylim(1000,min(mag))
-
+plt.plot(0,0)
 plt.draw()
 plt.show()
